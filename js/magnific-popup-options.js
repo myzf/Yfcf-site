@@ -17,7 +17,7 @@ $(document).ready(function() {
         type: 'iframe',
         mainClass: 'mfp-fade',
         removalDelay: 160,
-        preloader: false,
+        preloader: true,
 
         fixedContentPos: false
     });
