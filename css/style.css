@@ -1196,11 +1196,6 @@ p {
   height: 2em;
 }
 
-.disStack {
-  font-family: 'Tangerine', serif;
-  font-size: 48px;
-  color: #45c46f;
-}
 
 .big_button{
   border: 1px solid #006ab4;
@@ -1212,5 +1207,20 @@ p {
 .big_button:hover{
   background-color: #006ab4;
 }
+
+.disStack {
+  font-family: 'Tangerine', serif;
+  font-size: 48px;
+  color: #45c46f;
+}
+
+.bgImg{
+  border-radius: 30px;
+  width:60px;
+  height:60px;
+  background: no-repeat center;
+  background-size:60px;
+}
+
 
 /*# sourceMappingURL=style.css.map */
