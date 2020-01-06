@@ -109,7 +109,7 @@
                         <a href="#" data-nav-section="docs">文档</a>
                         <a href="#" data-nav-section="team">团队</a>
                         <a href="#" data-nav-section="stack">技术栈</a>
-                        <a href="#" onclick="window.open('https://jpom.keepbx.cn?from=site-nav');">演示站点</a>
+                        <a href="#" onclick="window.open('http://localhost:2122');">监控页面</a>
                     </div>
                 </div>
             </div>
@@ -182,13 +182,13 @@
 
             </div>
             <div class="fh5co-2col fh5co-text" style="margin-top: 100px;">
-                <img src="https://jpom-site.keepbx.cn/jpom-server.gif" style="width: 100%;" alt="yfcf"/>
+                <img src="https://yfcf-1256269039.cos.ap-shanghai.myqcloud.com/Yfcf-static/gif/show.gif" style="width: 100%;" alt="yfcf"/>
             </div>
         </div>
 
         <div id="fh5co-services" data-section="docs">
             <div class="fh5co-video">
-                <a href="https://v.qq.com/txp/iframe/player.html?vid=t0897dy281m"
+                <a href="https://yfcf-1256269039.cos.ap-shanghai.myqcloud.com/Yfcf-static/video/20191219_214801.mp4"
                    class="popup-vimeo">
                     <i class="icon-play2"></i>
                 </a>
@@ -202,11 +202,27 @@
                 </div>
                 <div class="col-md-4">
                     <div class="service">
-                        <div class="icon"><i class="icon-gears"></i></div>
-                        <h3>节点管理</h3>
-                        <p>集群节点，统一管理多节点的项目，实现快速一键分发项目文件</p>
+                        <div class="icon"><i class="icon-lock2"></i></div>
+                        <h3>费用抽象</h3>
+                        <p>把费用类型抽象成api、service、dao模块化，充分采用java复用思想。</p>
                     </div>
                 </div>
+                <div class="col-md-4">
+                    <div class="service">
+                        <div class="icon"><i class="icon-user"></i></div>
+                        <h3>代码生成</h3>
+                        <p>强大灵活的代码代码生成引擎，协助开发人员快速生成表单代码</p>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="service">
+                        <div class="icon"><i class="icon-hourglass-half"></i></div>
+                        <h3>自动构建</h3>
+                        <p>在线拉取GitLab仓库快速构建项目包，不用使用Jenkins手动上传项目包</p>
+                    </div>
+                </div>
+
                 <div class="col-md-4">
                     <div class="service">
                         <div class="icon"><i class="icon-support"></i></div>
@@ -215,13 +231,6 @@
                     </div>
                 </div>
 
-                <div class="col-md-4">
-                    <div class="service">
-                        <div class="icon"><i class="icon-hourglass-half"></i></div>
-                        <h3>在线构建</h3>
-                        <p>在线拉取GIT仓库快速构建项目包，不用使用Jenkins手动上传项目包</p>
-                    </div>
-                </div>
 
                 <div class="col-md-4">
                     <div class="service">
@@ -233,18 +242,18 @@
 
                 <div class="col-md-4">
                     <div class="service">
-                        <div class="icon"><i class="icon-user"></i></div>
-                        <h3>代码生成</h3>
-                        <p>强大灵活的代码代码生成引擎，协助开发人员快速生成表单代码</p>
+                        <div class="icon"><i class="icon-gears"></i></div>
+                        <h3>节点管理</h3>
+                        <p>集群节点，统一管理多节点的项目，实现快速一键分发项目文件</p>
                     </div>
                 </div>
-                <div class="col-md-4">
-                    <div class="service">
-                        <div class="icon"><i class="icon-lock2"></i></div>
-                        <h3>抽象费用</h3>
-                        <p>把费用类型抽象成api、service、dao模块化，充分结合java复用思想。</p>
-                    </div>
-                </div>
+
+
+
+
+
+
+
                 <div class="col-md-4">
                     <div class="service">
                         <div class="icon"><i class="icon-lightbulb-o"></i></div>
@@ -348,7 +357,7 @@
 <!--                </div>-->
 
                 <div class="col-md-2 friend" v-for="stack in stacks">
-                    <p class="disStack">{{stack}}</p>
+                    <p style="font-family:cursive;text-shadow:6px 9px 3px #c9e2b3;font-size:3rem;color: #3db11a">{{stack}}</p>
                 </div>
 
             </div>
@@ -425,7 +434,7 @@
                 { url: 'https://img.alicdn.com/imgextra/i1/1657787036/O1CN01IjjWcs21qXIW5XAfy_!!1657787036.jpg' },
             ],
             stacks: [
-                "SpringBoot","SpringMvc","Guava","Redis","Mysql","Oracle","JdbcTemplate","Hession","Thymeleaf","Druid","LayUi","Hutool","Cat","CacheCloud","JetCache"
+                "SpringBoot","SpringMvc","Guava","Redis","Mysql","Oracle","JdbcTemplate","Bootstrap","Hession","Thymeleaf","Druid","LayUi","Vue","Hutool","H2","Cat","CacheCloud","JetCache"
             ]
         }
     });
